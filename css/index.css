@@ -1,0 +1,38 @@
+#poupop{
+	width:100%;
+	height:100vh;
+	position: fixed;
+	z-index: 999999;
+	display: flex;
+	justify-content: center;
+	display: none;
+}
+#poupop #content{
+width:800px;
+height: auto;
+position: relative;
+margin-top: 10px;
+}
+#poupop #content img{
+width:100%;
+height:auto;
+}
+#pouppop-close{
+	position: absolute;
+z-index: 99999999;
+top: 30px;
+right: 30px;
+font-size: 35px;
+cursor: pointer;
+}
+#pouppop-close:hover{
+	color: white;
+}
+@media only screen and (max-width:1500px) { 
+#poupop #content{
+width:80%;
+height: auto;
+position: relative;
+margin-top: 10px;
+}
+}
